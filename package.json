@@ -1,0 +1,29 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "package for learn",
+  "main": "package.json",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node_modules/browser-sync/bin/browser-sync.js start --config node_modules/learn-browser/bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kish-Siva-1/npm-lab-online-web-ft-041519.git"
+  },
+  "keywords": [
+    "gsgsr"
+  ],
+  "author": "grgr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kish-Siva-1/npm-lab-online-web-ft-041519/issues"
+  },
+  "homepage": "https://github.com/Kish-Siva-1/npm-lab-online-web-ft-041519#readme",
+  "dependencies": {
+    "learn-browser": "^0.1.24",
+    "moment": "^2.24.0"
+  }
+}
